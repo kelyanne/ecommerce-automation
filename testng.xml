@@ -1,0 +1,12 @@
+<suite name="Suite" parallel="tests" thread-count="2">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="org.uk.co.automationtesting.AddRemoveItemCartTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Test2">
+        <classes>
+            <class name="org.uk.co.automationtesting.OrderCompleteTest"/>
+        </classes>
+    </test>
+</suite>
